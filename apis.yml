@@ -1,22 +1,85 @@
 aid: core-loop
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/core-loop.png
 name: Core Loop
-description: Core Loop is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Core Loop is a game studio founded in 2020 by Vincenzo Alagna and Dan
+  Chao, veterans of Machine Zone, GREE, and Funzio, building a modern cross-platform
+  MMO at the intersection of massively multiplayer online games and web3. The studio
+  is developing an AI-directed, dynamic world that evolves based on the actions of
+  the community, with a blockchain-based, player-driven virtual economy in which participants
+  truly own the assets they craft or earn and can potentially make a living in the
+  game long-term. The game targets both PC and mobile. Core Loop raised a Series A
+  led by Andreessen Horowitz, with participation from Galaxy Digital, Block.one, 1Up
+  Ventures, Dune Ventures, and others, and operates as a remote-first team headquartered
+  in Oakland, California. As a game studio, Core Loop does not currently publish a
+  public developer API, SDK, MCP server, or developer portal, so this profile is
+  identity-only.'
 url: https://raw.githubusercontent.com/api-evangelist/core-loop/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
+- Galaxy Digital
+- Block.one
+- 1Up Ventures
+- Dune Ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-founded: '2020'
+x-headquarters: Oakland, California, United States
+x-founders:
+- Vincenzo Alagna
+- Dan Chao
+x-industry: Gaming
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Games
+- Gaming
+- Game Studio
+- MMO
+- Web3
+- Blockchain
+- NFT
+- Virtual Economy
+- AI
 apis: []
+common:
+- type: DomainSecurity
+  url: security/core-loop-domain-security.yml
+- type: Website
+  url: https://coreloop.ai/
+- type: Website
+  name: coreloop.gg
+  url: https://coreloop.gg/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/core-loop-games
+- type: Twitter
+  url: https://twitter.com/coreloopgames
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/core-loop-games
+- type: Investment
+  name: Investing in Core Loop (a16z)
+  url: https://a16z.com/announcement/investing-in-core-loop/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -1,0 +1,25 @@
+generated: '2026-07-18'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: coreloop.ai
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 12 14:16:23 2026 GMT
+  hsts: false
+- host: coreloop.gg
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Aug 29 04:53:29 2026 GMT
+  hsts: false
+domains:
+- domain: coreloop.ai
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: false
+- domain: coreloop.gg
+  dnssec: false
+  caa: []
+  spf: false
+  dmarc: false
